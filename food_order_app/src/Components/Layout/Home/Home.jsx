@@ -12,7 +12,7 @@ const Home = () => {
         <p className="text1">Welcome!</p>
         <div className="welcome-content">
           <p className="text2">Are you ready to pick up your food?</p>
-          <p className="text3 typed-out container1">
+          <p className="text3">
             Simply choose a comfortable time and enjoy your favourite meals.
           </p>
         </div>
