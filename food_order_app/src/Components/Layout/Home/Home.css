@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap");
+.home-text {
+  padding-top: 13%;
+  z-index: 100;
+  position: absolute;
+  left: 23%;
+  text-align: center;
+}
+
+.text3 {
+  font-size: 36px;
+}
+.text1 {
+  font-family: "Great Vibes", cursive;
+  color: #91113c;
+  font-size: 2.5cm;
+  animation: flipInX;
+  animation-duration: 1s;
+}
+.welcome-content {
+  color: #2d010f;
+  line-height: 50px;
+  font-style: italic;
+  margin-top: 0.25rem;
+  font-family: "Playfair Display", serif;
+  font-size: 47px;
+}
+
+.home-logo {
+  height: 91px;
+  width: 317px;
+  margin-right: auto;
+  background-color: transparent;
+}
+.home-header {
+  position: absolute;
+  top: 1rem;
+  padding: 0 3%;
+  z-index: 10;
+}
+
+.homepage-img {
+  background-color: #cccccc;
+  height: 1060px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url("../../../Assests/01.jpg");
+  background-blend-mode: overlay;
+}
+
+/* TYPING ANIMATION */
+.typed-out {
+  /* make sure the text content isn’t revealed 
+  until the typing effect has started. */
+  overflow: hidden;
+  /* width: 0; */
+  border-right: 0.15em solid #2d010f; /* to create the typewriter cursor. */
+  /* height: 2.5cm; */
+  white-space: nowrap;
+  animation: typing 2s steps(20, end) forwards;
+}
+.container1 {
+  display: inline-block;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
